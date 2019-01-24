@@ -8,7 +8,7 @@
 if ( ! class_exists( 'LRT_WP_Async_Request' ) ) {
 
 	/**
-	 * Abstract WP_Async_Request class.
+	 * Abstract LRT_WP_Async_Request class.
 	 *
 	 * @abstract
 	 */
