@@ -1,19 +1,19 @@
 <?php
 /**
- * WP Background Process
+ * LRT WP Background Process
  *
- * @package WP-Background-Processing
+ * @package LRT-WP-Background-Processing
  */
 
-if ( ! class_exists( 'WP_Background_Process' ) ) {
+if ( ! class_exists( 'LRT_WP_Background_Process' ) ) {
 
 	/**
-	 * Abstract WP_Background_Process class.
+	 * Abstract LRT_WP_Background_Process class.
 	 *
 	 * @abstract
-	 * @extends WP_Async_Request
+	 * @extends LRT_WP_Async_Request
 	 */
-	abstract class WP_Background_Process extends WP_Async_Request {
+	abstract class LRT_WP_Background_Process extends LRT_WP_Async_Request {
 
 		/**
 		 * Action
@@ -23,7 +23,7 @@ if ( ! class_exists( 'WP_Background_Process' ) ) {
 		 * @var string
 		 * @access protected
 		 */
-		protected $action = 'background_process';
+		protected $action = 'lrt_background_process';
 
 		/**
 		 * Start time of current process.
