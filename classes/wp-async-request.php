@@ -1,18 +1,18 @@
 <?php
 /**
- * WP Async Request
+ * LRT WP Async Request
  *
- * @package WP-Background-Processing
+ * @package LRT-WP-Background-Processing
  */
 
-if ( ! class_exists( 'WP_Async_Request' ) ) {
+if ( ! class_exists( 'LRT_WP_Async_Request' ) ) {
 
 	/**
 	 * Abstract WP_Async_Request class.
 	 *
 	 * @abstract
 	 */
-	abstract class WP_Async_Request {
+	abstract class LRT_WP_Async_Request {
 
 		/**
 		 * Prefix
@@ -22,7 +22,7 @@ if ( ! class_exists( 'WP_Async_Request' ) ) {
 		 * @var string
 		 * @access protected
 		 */
-		protected $prefix = 'wp';
+		protected $prefix = 'lrt';
 
 		/**
 		 * Action
