@@ -1,12 +1,12 @@
 <?php
 /**
- * WP-Background Processing
+ * LRT-WP-Background Processing
  *
- * @package WP-Background-Processing
+ * @package LRT-WP-Background-Processing
  */
 
 /*
-Plugin Name: WP Background Processing
+Plugin Name: LRT WP Background Processing
 Plugin URI: https://github.com/A5hleyRich/wp-background-processing
 Description: Asynchronous requests and background processing in WordPress.
 Author: Delicious Brains Inc.
