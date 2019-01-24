@@ -16,5 +16,5 @@ GitHub Plugin URI: https://github.com/A5hleyRich/wp-background-processing
 GitHub Branch: master
 */
 
-require_once plugin_dir_path( __FILE__ ) . 'classes/wp-async-request.php';
-require_once plugin_dir_path( __FILE__ ) . 'classes/wp-background-process.php';
+require_once plugin_dir_path( __FILE__ ) . 'classes/LRT_WP_Async_Request.php';
+require_once plugin_dir_path( __FILE__ ) . 'classes/LRT_WP_Background_Process.php';
